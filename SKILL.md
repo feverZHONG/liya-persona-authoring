@@ -124,3 +124,11 @@ SOUL.md 的减法遵循同样的原则：**不写说明文字，只留给行动�
 ### 批量减厚 SKILL.md
 
 当需要一次处理多个厚 skill 时，参见 `references/batch-thinning-workflow.md`（本会话以 10 个 skill 验证过，平均每个从 300+ 行砍到 ~25 行）。
+
+## 对外仓库
+
+本 skill 有一份公开仓库：<https://github.com/feverZHONG/liya-persona-authoring>（本地原件 ↔ 工作副本 `repos/liya-persona-authoring`，双向同步）。
+
+- 同步：`bin/skillrepo persona-authoring status|sync`；机制与新增配方见 `skill-curation/references/11-public-repo-sync.md`
+- **配套模板** `references/setting-writing-template.md`（阁下 v1.2，B站 cv47543229）跟着仓库走，同步时双向对齐——它跟本 skill 是「同族不同用」，适用面对照表在文件里
+- 姊妹仓库：技能库维度的同一套减法 → [liya-subtraction-skill](https://github.com/feverZHONG/liya-subtraction-skill)
