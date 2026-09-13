@@ -63,7 +63,7 @@
 简介：对该角色的简单描述，用于快速人手
 自我介绍：指该角色再次向用户自我介绍。此处必须将用户视为指定身份
 与用户的关系：即该角色与用户之间的关系
-目前现状：即该角色当前的一般常见状态
+目前现状：即该角色当前的常见状态
 二、外貌
 发型发色：发型、发色、特殊挑染、装饰
 五官神态：眼部、面部神态及整体气质
@@ -144,5 +144,18 @@ MBTI类型：填写对应的四个字母
 ## 收录纪律（留痕）
 
 - 原文**只装不改**：换行、标点、「把把」（原文重复字）一律照录，不顺手修
+- ⚠️ **收录完必须跑一次逐行 diff 自查**（本次就手滑多敲了两个字，被 diff 抓出来）：
+  ```bash
+  # BT 是为了在文档里避开三反引号本身
+  python3 - <<'PY'
+  import pathlib, difflib
+  BT = chr(96) * 3
+  ref  = pathlib.Path("skills/sillytavern-cards/references/10-setting-writing-template.md").read_text()
+  orig = pathlib.Path("tmp/opus_1188217301095153683.md").read_text().strip()
+  block = ref.split(BT + "text")[1].split(BT)[0].strip()
+  print("\n".join(difflib.unified_diff(orig.split("\n"), block.split("\n"),
+                                       "原文", "收录", lineterm="", n=0)) or "✅ 逐行一致")
+  PY
+  ```
 - 页面渲染不保换行 → 收录时一律用代码块（本文件与归档同款处理）
 - 阁下出新版（v1.3+）时：B站为准 → 归档更新 + 本文件替换 + `bin/skillrepo persona-authoring sync` 推仓库
