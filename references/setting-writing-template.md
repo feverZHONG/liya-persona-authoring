@@ -1,9 +1,8 @@
-# 角色设定写作模板（阁下 · v1.2）
+# 角色设定写作模板（fever钟 · v1.2）
 
 > **出处**：B站专栏 `cv47543229`《【适合有角色资料，但不清楚怎么写设定的思路模板】v1.2》（fever钟，2026-04-07，1938 字）
 > **原文**：<https://www.bilibili.com/read/cv47543229> ｜ opus <https://www.bilibili.com/opus/1188217301095153683>（b23.tv/y1PWfqG）
-> **本地归档**：`archive/bili-articles/articles/2026/cv47543229-.../article.md`
-> 本文件 = 原样收录 + 用法/适用面说明。**原文一字未改**；阁下改新版（v1.3+）时以 B 站为准，同时回填这里与归档。
+> 本文件 = 原样收录 + 用法/适用面说明。**原文一字未改**；作者出新版（v1.3+）时以 B 站为准，回填这里。
 
 ## 什么时候用
 
@@ -11,7 +10,7 @@
 - 写卡流程的**上游**：先出设定文本 → 再走 `make_tavern_card.py` / 手写 PList（`sillytavern-cards`）
 - 需要把「用户」写进设定（模板最后一行改身份）
 
-## 使用方式（阁下原话）
+## 使用方式（作者原话）
 
 > 以下所有内容均可复制粘贴（已对各种写法做好适配），只需要注意最后一行里，修改用户的身份即可。剩下的交给你的资料。
 
@@ -27,7 +26,7 @@
 
 同族不同用：**同一件「写人格」的活，需求不同、规则相反**——拿这边的规则去砍人格文件、或拿 SOUL 的减法砍角色设定，都会出事。
 
-> **完整边界以 `persona-authoring` 的定位文档为准**（本地 `skills/persona-authoring/references/scope-and-boundaries.md`；公开仓库 <https://github.com/feverZHONG/liya-persona-authoring> → `references/scope-and-boundaries.md`）。上面这张表只是就地对照，口径变了改那边。
+> **完整边界以 `persona-authoring` 的定位文档为准**：<https://github.com/feverZHONG/liya-persona-authoring>（本仓库也随带同一份，即 references 里的 scope-and-boundaries）。上面这张表只是就地对照，口径变了改那边。
 
 ## 模板原文（v1.2 · 原样收录）
 
@@ -146,18 +145,18 @@ MBTI类型：填写对应的四个字母
 ## 收录纪律（留痕）
 
 - 原文**只装不改**：换行、标点、「把把」（原文重复字）一律照录，不顺手修
-- ⚠️ **收录完必须跑一次逐行 diff 自查**（本次就手滑多敲了两个字，被 diff 抓出来）：
+- ⚠️ **收录完必须跑一次逐行 diff 自查**（原文纯文本 vs 收录块，逐行对）：
   ```bash
   # BT 是为了在文档里避开三反引号本身
   python3 - <<'PY'
   import pathlib, difflib
   BT = chr(96) * 3
-  ref  = pathlib.Path("skills/sillytavern-cards/references/10-setting-writing-template.md").read_text()
-  orig = pathlib.Path("tmp/opus_1188217301095153683.md").read_text().strip()
+  ref  = pathlib.Path("references/10-setting-writing-template.md").read_text()
+  orig = pathlib.Path("<B站原文纯文本>.md").read_text().strip()
   block = ref.split(BT + "text")[1].split(BT)[0].strip()
   print("\n".join(difflib.unified_diff(orig.split("\n"), block.split("\n"),
                                        "原文", "收录", lineterm="", n=0)) or "✅ 逐行一致")
   PY
   ```
-- 页面渲染不保换行 → 收录时一律用代码块（本文件与归档同款处理）
-- 阁下出新版（v1.3+）时：B站为准 → 归档更新 + 本文件替换 + `bin/skillrepo persona-authoring sync` 推仓库
+- 页面渲染不保换行 → 收录时一律用代码块
+- 作者出新版（v1.3+）时：以 B站为准 → 本文件替换（本地与公开仓库同步）
