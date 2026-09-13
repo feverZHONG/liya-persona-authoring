@@ -10,6 +10,8 @@ tags: [persona, identity, soul, character, writing, refinement]
 # 人格创作 · Persona Authoring
 
 > 创作和迭代 SOUL.md 等身份文件——砍掉装饰性文字，留下塑造行为的东西。
+>
+> **适用面：** 本 skill 只管「AI agent 自己的身份文件」。跟角色扮演设定（酒馆卡 / 设定模板）、作品角色档案的分界——**规则相反的地方**——见 `references/scope-and-boundaries.md`（别处提本 skill 时以它为准）。
 
 ## 什么时候用
 

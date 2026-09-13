@@ -27,6 +27,8 @@
 
 同族不同用：**同一件「写人格」的活，需求不同、规则相反**——拿这边的规则去砍人格文件、或拿 SOUL 的减法砍角色设定，都会出事。
 
+> **完整边界以 `persona-authoring` 的定位文档为准**（本地 `skills/persona-authoring/references/scope-and-boundaries.md`；公开仓库 <https://github.com/feverZHONG/liya-persona-authoring> → `references/scope-and-boundaries.md`）。上面这张表只是就地对照，口径变了改那边。
+
 ## 模板原文（v1.2 · 原样收录）
 
 > ⚠️ **必须整块复制，别从渲染视图里挑着抄。** 下面用代码块装着，正是因为 Markdown 正文里的**单换行会被渲染成空格**——整份模板会糊成几大段，复制出来也是糊的（2026-09-13 阁下当场点破）。

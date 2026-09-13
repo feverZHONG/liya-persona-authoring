@@ -26,6 +26,7 @@ git clone https://github.com/feverZHONG/liya-persona-authoring.git ~/.hermes/ski
 | 路径 | 内容 |
 |:-----|:-----|
 | `SKILL.md` | 入口：创作流程七步 + 常见坑 + 身份文件减法 |
+| `references/scope-and-boundaries.md` | **定位与适用面**：跟角色设定 / 酒馆卡 / 角色档案的分界（规则相反的地方） |
 | `references/identity-file-debloat.md` | 身份文件减法完整流程（分类 / 归位 / 实例映射） |
 | `references/batch-thinning-workflow.md` | 批量减厚 SKILL.md（同套减法用在技能库维度） |
 | `references/setting-writing-template.md` | **配套模板**（不属于本 skill，跟着仓库走）：角色设定写作模板 v1.2 |
@@ -36,7 +37,7 @@ git clone https://github.com/feverZHONG/liya-persona-authoring.git ~/.hermes/ski
 
 - **作者：fever钟**，原载 B 站专栏 [cv47543229](https://www.bilibili.com/read/cv47543229)（2026-04-07），随本仓库分发
 - **用途**：手里有角色资料、但组织不成一份能直接用的设定时——整段模板 + 资料一起丢给模型即可，最后一行改「用户身份」
-- **⚠️ 它与本 skill「同族不同用」**：角色扮演要**演得像**（外貌、三层情绪反馈都要留），AI 助手人格要**做得对**（外貌是减法对象、只留行为锚点）。两边规则相反，别混用；模板文件里有对照表
+- **⚠️ 它与本 skill「同族不同用」**：角色扮演要**演得像**（外貌、三层情绪反馈都要留），AI 助手人格要**做得对**（外貌是减法对象、只留行为锚点）。两边规则相反，别混用——完整分界见 [`references/scope-and-boundaries.md`](references/scope-and-boundaries.md)
 - 转载 / 引用请注明出处
 
 ## 姊妹仓库
