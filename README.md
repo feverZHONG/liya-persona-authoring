@@ -46,6 +46,7 @@ git clone https://github.com/feverZHONG/liya-persona-authoring.git ~/.hermes/ski
 - [liya-chat-game-referee](https://github.com/feverZHONG/liya-chat-game-referee) · [liya-spy-game](https://github.com/feverZHONG/liya-spy-game) · [liya-sea-turtle-soup](https://github.com/feverZHONG/liya-sea-turtle-soup) —— 聊天里能玩的三件（回合制裁判引擎 / 谁是卧底 / 海龟汤）
 - [liya-subtraction-skill](https://github.com/feverZHONG/liya-subtraction-skill) —— 技能库维度上的同一套减法（冗余检测 / 拆薄 / 归档判定）
 - [liya-sillytavern-cards](https://github.com/feverZHONG/liya-sillytavern-cards) —— 写酒馆角色卡那条线（角色扮演向，跟本 skill 规则相反，分界见 `references/scope-and-boundaries.md`）
+- [liya-sillytavern-worldbook](https://github.com/feverZHONG/liya-sillytavern-worldbook) —— 酒馆世界书（Lorebook）：触发链源码实证 + 触发体检 / 模拟 / 生成工具
 - [liya-vision-recognition-traps](https://github.com/feverZHONG/liya-vision-recognition-traps) —— 视觉模型识图陷阱：19 条实测陷阱 + 真 OCR 通道 + AI 生图物理体检 + 两图差分
 
 ## 提思路 / 提修正
