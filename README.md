@@ -48,6 +48,7 @@ git clone https://github.com/feverZHONG/liya-persona-authoring.git ~/.hermes/ski
 - [liya-sillytavern-cards](https://github.com/feverZHONG/liya-sillytavern-cards) —— 写酒馆角色卡那条线（角色扮演向，跟本 skill 规则相反，分界见 `references/scope-and-boundaries.md`）
 - [liya-sillytavern-worldbook](https://github.com/feverZHONG/liya-sillytavern-worldbook) —— 酒馆世界书（Lorebook）：触发链源码实证 + 触发体检 / 模拟 / 生成工具
 - [liya-vision-recognition-traps](https://github.com/feverZHONG/liya-vision-recognition-traps) —— 视觉模型识图陷阱：19 条实测陷阱 + 真 OCR 通道 + AI 生图物理体检 + 两图差分
+- [liya-delegation-and-verification](https://github.com/feverZHONG/liya-delegation-and-verification) —— 委派与验收：给子代理写任务书、并行隔离、把「自报」验成事实
 
 ## 提思路 / 提修正
 
