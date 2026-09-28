@@ -50,7 +50,7 @@
 | 玩要玩出收获（9/4 阁下经验） | knowledge-persistence | **补 16 条后删** |
 | 技能维护收尾四查 | skill-curation references/06 | **补节后删** |
 | git 收尾总则（当场提交/push 后台自愈） | environment-hygiene 铁律 | **补条后删** |
-| 玩要玩出收获的考据教训 | short-stories-liya | **补陷阱 8 后删** |
+| 玩要玩出收获的考据教训 | 写作项目 | **补陷阱 8 后删** |
 | 消息应对/回复纪律精华 | 留在 AGENTS | 接住人的方式=本来的样子，不归 skill |
 | 纯噪音（token 成本/心跳细节/决策板前置） | 删 | skill 里有或已是常识 |
 | **第一轮加的「做事的样子」7 条** | 全删 | SOUL/八荣八耻已覆盖；先行动→汇报节、不脑补→SOUL 阁下段 |
@@ -62,7 +62,7 @@
 - **死引用清理（每次减法必做）**：`AGENTS.md §N` 类旧编号指向会失效——本次清 4 处，典型藏在 `scripts/README.md` 表格、`ro.py` 行内注释、skill references 正文（`AGENTS.md §五/§七/§八/§二.4` 全是已删章节）。命令：`search_files pattern="AGENTS\.md §"`。
 
 - AGENTS.md 155→84→**58 行**（10KB→2.4KB）；SOUL.md 162→153 行（本就纯，只微调）
-- 规则补丁：knowledge-persistence +3 条、skill-curation/06 +1 节、environment-hygiene +1 铁律、short-stories-liya +1 陷阱
+- 规则补丁：knowledge-persistence +3 条、skill-curation/06 +1 节、environment-hygiene +1 铁律、写作项目 +1 陷阱
 - 引用修复：旧「AGENTS.md §17」类章节引用要全局 grep 清掉（README/INDEX 同步更新）
 - 提交拆两笔：身份重构一笔、skill 规则归位一笔，方便回退单侧
 
